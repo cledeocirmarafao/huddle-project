@@ -1,19 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: hsl(257, 40%, 49%);
-    background-image: url(../images/bg-desktop.svg);
-    height: 100vh;
-    width: 100vw;
-    font-family: Open Sans, sans-serif;
-    color: #fff;
+  background: url(../images/bg-desktop.svg) center left no-repeat;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
+  height: 100vh;
+  width: 100%;
+  font-family:
+    Open Sans,
+    sans-serif;
+  color: #fff;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
